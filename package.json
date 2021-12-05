@@ -1,0 +1,30 @@
+{
+  "name": "object-detection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts"
+  },
+  "engines": {
+    "node": "v14.17.0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "RobzLegz",
+    "email": "robzlegz@gmail.com",
+    "url": "https://github.com/RobzLegz"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@tensorflow/tfjs": "^3.11.0",
+    "@tensorflow/tfjs-core": "^3.11.0",
+    "@tensorflow/tfjs-node": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
